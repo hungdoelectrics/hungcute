@@ -1,0 +1,15 @@
+c:\users\hung\documents\visual studio 2013\Projects\QLTV2020\QLTV2020\bin\Debug\QLTV2020.exe.config
+c:\users\hung\documents\visual studio 2013\Projects\QLTV2020\QLTV2020\bin\Debug\QLTV2020.exe
+c:\users\hung\documents\visual studio 2013\Projects\QLTV2020\QLTV2020\bin\Debug\QLTV2020.pdb
+c:\users\hung\documents\visual studio 2013\Projects\QLTV2020\QLTV2020\obj\Debug\QLTV2020.csprojResolveAssemblyReference.cache
+c:\users\hung\documents\visual studio 2013\Projects\QLTV2020\QLTV2020\obj\Debug\QLTV2020.Properties.Resources.resources
+c:\users\hung\documents\visual studio 2013\Projects\QLTV2020\QLTV2020\obj\Debug\QLTV2020.csproj.GenerateResource.Cache
+c:\users\hung\documents\visual studio 2013\Projects\QLTV2020\QLTV2020\obj\Debug\QLTV2020.exe
+c:\users\hung\documents\visual studio 2013\Projects\QLTV2020\QLTV2020\obj\Debug\QLTV2020.pdb
+c:\users\hung\documents\visual studio 2013\Projects\QLTV2020\QLTV2020\obj\Debug\QLTV2020.frmMain.resources
+c:\users\hung\documents\visual studio 2013\Projects\QLTV2020\QLTV2020\obj\Debug\QLTV2020.frmLogin.resources
+c:\users\hung\documents\visual studio 2013\Projects\QLTV2020\QLTV2020\obj\Debug\QLTV2020.ThongTinSach.resources
+c:\users\hung\documents\visual studio 2013\Projects\QLTV2020\QLTV2020\obj\Debug\QLTV2020.QuanLyDocGia.resources
+C:\Users\hung\Documents\Visual Studio 2013\Projects\QLTV2020\QLTV2020\obj\Debug\QLTV2020.QuanLyMuonSach.resources
+C:\Users\hung\Documents\Visual Studio 2013\Projects\QLTV2020\QLTV2020\obj\Debug\QLTV2020.QuanLyTraSach.resources
+C:\Users\hung\Documents\Visual Studio 2013\Projects\QLTV2020\QLTV2020\obj\Debug\QLTV2020.TacGia.resources

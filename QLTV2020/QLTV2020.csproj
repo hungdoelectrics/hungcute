@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{23D935A6-B4EE-4740-875E-2EB1CAE22270}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QLTV2020</RootNamespace>
+    <AssemblyName>QLTV2020</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="TacGia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TacGia.Designer.cs">
+      <DependentUpon>TacGia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyMuonSach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLyMuonSach.Designer.cs">
+      <DependentUpon>QuanLyMuonSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyDocGia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLyDocGia.Designer.cs">
+      <DependentUpon>QuanLyDocGia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyTraSach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLyTraSach.Designer.cs">
+      <DependentUpon>QuanLyTraSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThongTinSach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThongTinSach.Designer.cs">
+      <DependentUpon>ThongTinSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="TacGia.resx">
+      <DependentUpon>TacGia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLyMuonSach.resx">
+      <DependentUpon>QuanLyMuonSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLyDocGia.resx">
+      <DependentUpon>QuanLyDocGia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLyTraSach.resx">
+      <DependentUpon>QuanLyTraSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThongTinSach.resx">
+      <DependentUpon>ThongTinSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\About me.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %283%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %284%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %285%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %286%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %286%29~1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %287%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %288%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2810%29~1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2813%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2815%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2816%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2817%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\learning.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_.svg_2093656.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_.svg_2093656 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_27_3319617.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_git-pull-request_298789.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_error_1646012.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_book_285636.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconDocGia.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconTacgia.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mhc.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_book_2856361.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_address-book-alt_299047.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_note_1296370.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
